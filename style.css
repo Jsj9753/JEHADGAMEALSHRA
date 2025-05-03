@@ -1,0 +1,9 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4e2d8;
+    text-align: center;
+}
+canvas {
+    background-color: #f8f1e4;
+    border: 2px solid #333;
+}
