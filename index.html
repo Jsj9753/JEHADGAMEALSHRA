@@ -2,13 +2,18 @@
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>لعبة جهاد: مغامرة الصحراء</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>لعبة جهاد: مغامرة الصحراء</h1>
-    <canvas id="gameCanvas" width="800" height="400"></canvas>
-    <p id="message">اضغط المسافة للقفز!</p>
+    <canvas id="gameCanvas" width="360" height="640"></canvas>
+    <div class="controls">
+        <button id="left">◀</button>
+        <button id="jump">قفز</button>
+        <button id="right">▶</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

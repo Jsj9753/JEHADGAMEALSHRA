@@ -1,9 +1,27 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4e2d8;
+    margin: 0;
+    background-color: #fdf6e3;
+    font-family: sans-serif;
     text-align: center;
 }
+h1 {
+    margin: 10px;
+}
 canvas {
-    background-color: #f8f1e4;
-    border: 2px solid #333;
+    background: linear-gradient(#ffeaa7, #fab1a0);
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #2d3436;
+}
+.controls {
+    margin-top: 10px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: #dfe6e9;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px #636e72;
 }
